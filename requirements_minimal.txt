@@ -1,16 +1,10 @@
-# نسخه پایدار و سازگار با torch
-numpy==1.23.5
-
-# پایه‌های اصلی پروژه
-torch>=1.8.1
-torchaudio>=0.8,<2.1
-
-# فقط کتابخانه‌های ضروری برای اجرای مدل‌ها و عملکرد اصلی
-demucs
-openunmix
+# please make sure you have already a pytorch install that is cuda enabled!
+dora-search
 einops
 julius>=0.2.3
 lameenc>=1.2
+openunmix
 pyyaml
+torch>=1.8.1
+torchaudio>=0.8,<2.1
 tqdm
-soundfile>=0.10.3; sys_platform == "win32"
